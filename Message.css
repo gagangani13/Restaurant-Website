@@ -1,0 +1,10 @@
+.messagebox {
+  width: 52%;
+  background-color: #a8f27ecc;
+  text-align: center;
+  top: 40%;
+  position: absolute;
+  justify-self: center;
+  border-radius: 29% 0;
+  left: 24%;
+}
