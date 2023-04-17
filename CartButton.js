@@ -1,9 +1,9 @@
 import React from 'react'
 import "./CartButton.css"
-const CartButton = () => {
+const CartButton = (props) => {
   return (
-    <button className='cartButton'>
-        <i class="fa-solid fa-cart-shopping" style={{color:'black'}}></i>
+    <button className='cartButton' onClick={props.onHeader}>
+        <i class="fa-solid fa-cart-shopping" style={{color:'white'}}></i>
         <span className='cart'>Cart</span>
         <span className='items'>3</span>
     </button>
