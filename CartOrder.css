@@ -1,0 +1,32 @@
+.orderBtn {
+  background-color: #135f0c;
+  justify-self: end;
+  border-radius: 1rem;
+  width: 5rem;
+  color: white;
+}
+.orderBtn:hover {
+  background-color: #135f0c8f;
+}
+.closeBtn {
+  background-color: rgb(158, 146, 146);
+  justify-self: end;
+  border-radius: 1rem;
+  width: 5rem;
+  color: black;
+}
+.closeBtn:hover {
+  background-color: rgba(158, 146, 146, 0.589);
+}
+.amount {
+  color: red;
+  font-size: large;
+}
+.itemsList {
+  color: #135f0c;
+}
+.action {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
